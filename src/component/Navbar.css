@@ -1,0 +1,29 @@
+.navbar{
+    background-color: white;
+    box-shadow: 0 2px 10px grey;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bar:hover{
+  width: 15px;
+}
+
+.navbar-items li{
+list-style: none;
+}
+.navbar-items ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}

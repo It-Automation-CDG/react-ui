@@ -1,0 +1,11 @@
+.sidenav-container{
+ background-color: aquamarine;   
+ width: 15%;
+}
+
+.sidenav-list ul{
+    list-style: none;
+}
+.sidenav-list ul li{
+    padding: 5px;
+}

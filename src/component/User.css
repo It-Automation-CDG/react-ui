@@ -1,0 +1,15 @@
+.user-container{
+    width: 98%;
+    margin: 1rem;
+}
+.form-input{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+input{
+    margin: 2px 2px 0 0;
+}
+button{
+    margin-top: 2px 
+}
