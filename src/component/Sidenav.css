@@ -1,11 +1,30 @@
 .sidenav-container{
  background-color: aquamarine;   
  width: 15%;
+ 
+
+}
+.sidenav-list{
+   
+    height:100vh;
 }
 
 .sidenav-list ul{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     list-style: none;
+    left: -2%;
 }
 .sidenav-list ul li{
-    padding: 5px;
+    
+    margin-bottom:1rem
+}
+@media screen and (max-width: 1155px){
+    .sidenav-container{
+        
+        width: 25%;
+        
+       }
 }

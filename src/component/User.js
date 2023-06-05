@@ -24,8 +24,8 @@ export default function User(props) {
 
   return (
     <>
-      <h3>Enter the Details</h3>
       <div className="user-container">
+        <h3>Enter the Details</h3>
         <form
           className="user-form"
           onSubmit={(e) => {
@@ -33,6 +33,7 @@ export default function User(props) {
             debugger;
             console.log(
               "data: " + name,
+              email,
               know,
               desig,
               experience,
@@ -42,6 +43,7 @@ export default function User(props) {
             );
             props.showDetails(
               name,
+              email,
               know,
               desig,
               experience,
@@ -71,7 +73,7 @@ export default function User(props) {
               onChange={(e) => setDesig(e.target.value)}
               placeholder="Designation"
             />
-            <br />
+
             <input
               type="text"
               value={experience}

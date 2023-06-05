@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default function Navbar() {
-  const [isclicked, setIsclicked] = useState(false);
+export default function Navbar({ showSidenav }) {
   const barClicked = () => {
-    alert("clicked");
+    showSidenav();
   };
   return (
     <>
